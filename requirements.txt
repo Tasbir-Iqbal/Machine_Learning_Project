@@ -10,3 +10,5 @@ shap
 joblib
 fastapi
 uvicorn[standard]
+streamlit
+hdbscan

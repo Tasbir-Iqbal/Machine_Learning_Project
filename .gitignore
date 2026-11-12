@@ -1,9 +1,33 @@
+# Local Python environments and caches
 venv/
+.venv/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
-data/*.csv
-models/*.joblib
-models/*.pkl
-reports/figures/*.png
+.pytest_cache/
+
+# Secrets
 .env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local dataset and generated results
+# Ignoring files does not delete them from your computer.
+data/*.csv
+reports/**
+!reports/figures/
+!reports/figures/.gitkeep
+risk_predictions.csv
+student_risk_predictions.csv
+
+# Generated model files
+*.joblib
+*.pkl
+*.pickle
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
