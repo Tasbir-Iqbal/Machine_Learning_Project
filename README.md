@@ -33,7 +33,7 @@ data/
   vle.csv
 ```
 
-The original dataset is available from The Open University: https://analyse.kmi.open.ac.uk/open_dataset
+The original dataset is available from The Open University: https://figshare.com/articles/dataset/OULAD_Open_University_Learning_Analytics_Dataset/5081998
 
 ## 2. Create your own environment
 
